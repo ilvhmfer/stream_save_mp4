@@ -64,7 +64,7 @@ int fill_iobuffer(void *opaque, uint8_t *buf, int buf_size)
 //int main(int argc, char **argv)
 int save_mp4_new(const char* out_filename, int totalFrame)
 {
-	fp_open = fopen("zzz.h264", "rb");   // only for test
+	fp_open = fopen("test.264", "rb");   // only for test
 
 	AVInputFormat *ifmt = NULL;
 	AVOutputFormat *ofmt = NULL;
